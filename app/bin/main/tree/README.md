@@ -12,11 +12,11 @@ What path is printed when searching for Corrosion Scythe?
 start build > demon hunter sword > golden staff > corossion
 
 Result of Practice
-1. membuat percabangan baru contohnya membuat dhs kemudian lanjut ke immortal
+1. Menentukan path build awal sampai selesai
 2. mencari suatu item berapa kali muncul dalam percabangannya
 3. mencari path yang memiliki ending nodes tertentu yang kita mau
 4. mencari path sebuah node
-5. itu membuat branch baru jadi kita menambah level dari tinggi branchnya itu di tambah dari 4 sampai 5
+5. itu membuat branch baru jadi kita menambah level dari tinggi branchnya itu di tambah dari 4 sampai 5 contohnya saya menambahkan item mini crystal
 
 Reflection 
 Dalam tugas ini, struktur data tree lebih cocok digunakan dibandingkan array karena mampu merepresentasikan berbagai kemungkinan jalur build item yang bersifat bercabang, bukan linear. Setiap node dapat memiliki beberapa child yang menggambarkan pilihan item berikutnya, sehingga lebih fleksibel dalam memodelkan keputusan dalam game. Implementasi rekursi pada fungsi seperti printTree(), printAllBuildPaths(), dan findPath() sangat membantu dalam memahami cara traversal tree secara mendalam, terutama konsep backtracking saat mencari jalur tertentu. Tantangan utama yang dihadapi adalah memahami alur rekursi dan memastikan struktur tree dibangun dengan benar, namun hal tersebut justru membantu memperkuat pemahaman tentang konsep penting seperti root, parent, child, leaf, path, dan height dalam tree.
